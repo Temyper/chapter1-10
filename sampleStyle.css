@@ -66,3 +66,36 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+    header  {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+  }
+
+  .item {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item:last-child {
+    margin: 20px 50px auto;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; */
+  }
+
+  .picture {
+    margin-bottom: 20px;
+  }
+  footer {
+    width: 100%;
+  }
+}
